@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Indstil miljøvariabler
-ENV FLASK_APP=your_flask_app.py
+ENV FLASK_APP=app.py
 
 # Udsæt den nødvendige port
 EXPOSE 5000
