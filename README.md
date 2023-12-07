@@ -5,7 +5,7 @@ a todo application flask and db dockerfile
 mkdir templates instance
 
 mv index.html template/
-mv *.db instance/
+mv tasks.db instance/
 </code>
 
 <code>
